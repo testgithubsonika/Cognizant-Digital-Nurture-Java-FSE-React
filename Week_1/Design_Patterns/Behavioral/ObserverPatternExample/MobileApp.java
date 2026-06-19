@@ -17,3 +17,18 @@ public class MobileApp implements Observer {
         );
     }
 }
+
+
+
+
+
+// Observer Pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependent objects are notified automatically.
+
+// Advantages
+// Loose coupling
+// Dynamic subscription/unsubscription
+// Easy notification mechanism
+// Real-World Examples
+// Stock Market apps
+// YouTube subscribers
+// Weather monitoring systems
