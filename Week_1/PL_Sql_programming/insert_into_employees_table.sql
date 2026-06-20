@@ -17,3 +17,7 @@ VALUES (
     'IT',
     TO_DATE('2017-03-20','YYYY-MM-DD')
 );
+
+-- for inserting isvip column in customer table
+ALTER TABLE Customers
+ADD IsVIP VARCHAR2(5);
